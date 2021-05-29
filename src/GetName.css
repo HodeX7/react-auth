@@ -1,0 +1,55 @@
+.getName {
+  width: 97%;
+  min-height: 100vh;
+  padding: 0 20px;
+  background: #7442f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.getName label {
+    color: white;
+    margin: 14px 0;
+    display: block;
+    font-size: 22px;
+    line-height: 1;
+    margin-right: 10vw;
+  }
+
+.getName input {
+    width: 20vw;
+    height: 5vh;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    padding: 10px;
+    background: white;
+    color: black;
+    letter-spacing: 1px;
+  }
+  button {
+    border: none;
+    outline: none;
+    width: 10vh;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 15px;
+    letter-spacing: 1px;
+    background: #603bbb;
+    cursor: pointer;
+  }
+
+button:hover{
+  border: none;
+  outline: none;
+  width: 10vh;
+  padding: 15px 0;
+  color: #603bbb;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background: #fff;
+  cursor: pointer;
+  margin-left: 15px;
+  transition: 0.3s ease-in;
+}
